@@ -54,7 +54,6 @@ if (form) {
         const message = formData.get('message');
         
         // You can add your form submission logic here
-        // For now, we'll just log the data
         console.log('Form submitted:', { name, email, message });
         
         // Clear form
